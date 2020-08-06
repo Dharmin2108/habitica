@@ -2,39 +2,43 @@
 // type: 'premiumHatchingPotion',  // note no "s" at the end
 // path: 'premiumHatchingPotions.Rainbow',
 const featuredItems = {
-  market: [
-    {
-      type: 'armoire',
-      path: 'armoire',
-    },
-    {
-      type: 'eggs',
-      path: 'eggs.Dragon',
-    },
-    {
-      type: 'hatchingPotions',
-      path: 'hatchingPotions.Red',
-    },
-    {
-      type: 'card',
-      path: 'cardTypes.congrats',
-    },
-  ],
-  quests: [
-    {
-      type: 'quests',
-      path: 'quests.treeling',
-    },
-    {
-      type: 'quests',
-      path: 'quests.egg',
-    },
-    {
-      type: 'quests',
-      path: 'quests.rock',
-    },
-  ],
-  seasonal: 'spring2018Healer',
+  market () {
+    return [
+      {
+        type: 'armoire',
+        path: 'armoire',
+      },
+      {
+        type: 'hatchingPotions',
+        path: 'hatchingPotions.Shade',
+      },
+      {
+        type: 'eggs',
+        path: 'eggs.TigerCub',
+      },
+      {
+        type: 'food',
+        path: 'food.Saddle',
+      },
+    ];
+  },
+  quests () {
+    return [
+      {
+        type: 'quests',
+        path: 'quests.snail',
+      },
+      {
+        type: 'quests',
+        path: 'quests.alligator',
+      },
+      {
+        type: 'quests',
+        path: 'quests.fluorite',
+      },
+    ];
+  },
+  seasonal: 'summer2019Warrior',
   timeTravelers: [
     // TODO
   ],

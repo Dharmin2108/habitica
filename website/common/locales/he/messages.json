@@ -12,7 +12,7 @@
     "messageLikesFood": "<%= egg %> really likes <%= foodText %>!",
     "messageDontEnjoyFood": "<%= egg %> eats <%= foodText %> but doesn't seem to enjoy it.",
     "messageBought": "קנית <%= itemText %>",
-    "messageEquipped": "הצטיידת ב<%= itemText %>",
+    "messageEquipped": " הצטיידת ב<%= itemText %>",
     "messageUnEquipped": "<%= itemText %> לא מצוייד.",
     "messageMissingEggPotion": "חסרה לך הביצה או התרופה הזו",
     "messageInvalidEggPotionCombo": "לא תוכלו להבקיע ביצים של חיות מחמד באמצעות שיקויים קסומים! נסו ביצים אחרות.",
@@ -62,5 +62,7 @@
     "unallocatedStatsPoints": "You have <span class=\"notification-bold-blue\"><%= points %> unallocated Stat Points</span>",
     "beginningOfConversation": "This is the beginning of your conversation with <%= userName %>. Remember to be kind, respectful, and follow the Community Guidelines!",
     "messageDeletedUser": "Sorry, this user has deleted their account.",
-    "messageMissingDisplayName": "Missing display name."
+    "messageMissingDisplayName": "Missing display name.",
+    "reportedMessage": "דיווחת על ההודעה הזו למנהלים.",
+    "canDeleteNow": "אם ברצונך למחוק את ההודעה, ניתן לעשות זאת עכשיו."
 }
